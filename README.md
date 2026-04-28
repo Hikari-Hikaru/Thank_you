@@ -47,5 +47,15 @@
     Someone was watching.<br><br>
     That’s all that matters now.
   </p>
+  <script>
+  setTimeout(() => {
+    document.body.style.transition = "opacity 2s";
+    document.body.style.opacity = "0";
+
+    setTimeout(() => {
+      window.location.href = "https://hikari-hikaru.github.io/Emma_dailyblog/";
+    }, 2000);
+  }, 58000);
+</script>
 </body>
 </html>
